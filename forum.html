@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cornholio Zone Forum</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Add some basic styling for the forum */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffcc00;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        .forum-container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .forum-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .post-form {
+            margin-bottom: 20px;
+        }
+        .post-form textarea {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        .post {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .post:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="forum-container">
+        <div class="forum-header">
+            <h1>Cornholio Zone Forum</h1>
+            <p>Discuss everything about Beavis and Butt-Head!</p>
+        </div>
+        <div class="post-form">
+            <textarea id="postContent" placeholder="Write your post here..."></textarea>
+            <button onclick="addPost()">Post</button>
+        </div>
+        <div id="postsContainer">
+            <!-- Posts will appear here -->
+        </div>
+    </div>
+    <script>
+        // JavaScript to handle adding posts
+        function addPost() {
+            const postContent = document.getElementById('postContent').value;
+            if (postContent.trim() === '') {
+                alert('Please write something before posting.');
+                return;
+            }
+            const postsContainer = document.getElementById('postsContainer');
+            const newPost = document.createElement('div');
+            newPost.className = 'post';
+            newPost.innerText = postContent;
+            postsContainer.appendChild(newPost);
+            document.getElementById('postContent').value = '';
+        }
+    </script>
+</body>
+</html>
