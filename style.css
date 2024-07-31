@@ -1,49 +1,92 @@
+/* General Styles */
 body {
-    background-color: #ffcc00; /* Bright yellow background */
-    color: #000; /* Black text */
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Classic 90s font */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #ff3300; /* Bright red header */
-    color: #fff; /* White text */
-    text-align: center;
+h1, h2 {
+    color: #444;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
     padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-nav {
-    background-color: #00ccff; /* Bright blue navigation */
-    padding: 10px;
-}
-
+/* Navigation */
 nav ul {
-    list-style-type: none; /* Remove bullet points */
+    list-style: none;
     padding: 0;
 }
 
 nav ul li {
-    display: inline; /* Horizontal list */
-    margin-right: 15px;
+    display: inline;
+    margin-right: 10px;
 }
 
 nav ul li a {
-    color: #000; /* Black links */
-    text-decoration: none; /* Remove underline */
-    font-weight: bold;
+    text-decoration: none;
+    color: #007BFF;
 }
 
-main {
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Forum Styles */
+.forum-container {
+    width: 80%;
+    margin: 0 auto;
     padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-footer {
-    background-color: #ff3300; /* Same as header */
-    color: #fff;
+.forum-header {
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
+    margin-bottom: 20px;
+}
+
+.post-form textarea {
     width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.post-form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-form button:hover {
+    background-color: #0056b3;
+}
+
+.post {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.post:last-child {
+    border-bottom: none;
 }
