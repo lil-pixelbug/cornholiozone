@@ -1,4 +1,4 @@
-# lil-pixelbug.github.io
+# The Cornholio Zone
 All things related to the idiot boys from MTV.
 # Cornholio Zone
 
