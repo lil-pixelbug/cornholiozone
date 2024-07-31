@@ -16,7 +16,7 @@ The Cornholio Zone aims to be a fansite for all things related to Beavis and But
 
 Rules suck! But you're gonna listen to 'em anywway, fartknocker.
 
-1. **Be Resperctful**: All members must treat each other with respect. Personal attacks, any hatred towards the Beavis and Butt-head franchise and it's characters or harassment of any kind will not be tolerated.
+1. **Be Respectful**: All members must treat each other with respect. Personal attacks, any hatred towards the Beavis and Butt-head franchise and it's characters or harassment of any kind will not be tolerated.
    
 2. **Stay On Topic**: Discussions should always be related to Beavis and Butt-Head (as in the series, movies, and books). If you would like to talk about Daria separately here that is an option.
 
