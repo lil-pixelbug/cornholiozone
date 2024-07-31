@@ -36,4 +36,4 @@ Contributions to the site are welcome. Listen to the community guidelines when s
 
 For questions, suggestions, or to report any issues, please tell me your issue on the site or contact me directly at [https://www.reddit.com/user/Eddsworld_Edd/].
 
-Thank you for being a part of the Cornholio Zone. I look forward to talking with you guys !!
+Thank you for being a part of the Cornholio Zone. I look forward to talking with you guys!!
