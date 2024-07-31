@@ -14,3 +14,5 @@ assignees: your_github_username
 
 ## Upload Your Art
 [Please attach your art file or provide a link to it]
+
+<a href="https://github.com/your_username/your_repository/issues/new?template=art_submission.md">Submit Your Art</a>
