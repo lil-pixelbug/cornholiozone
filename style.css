@@ -1,0 +1,49 @@
+body {
+    background-color: #ffcc00; /* Bright yellow background */
+    color: #000; /* Black text */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Classic 90s font */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff3300; /* Bright red header */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #00ccff; /* Bright blue navigation */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Horizontal list */
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #000; /* Black links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ff3300; /* Same as header */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
