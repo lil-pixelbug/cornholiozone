@@ -20,11 +20,11 @@ Rules suck! But you're gonna listen to 'em anywway, fartknocker.
    
 2. **Stay On Topic**: Discussions should always be related to Beavis and Butt-Head (as in the series, movies, and books). If you would like to talk about Daria separately here that is an option.
 
-3. **No Spam**: Members are forbidden from posting spam. This includes irrelvant posts, poorly made comments/posts that are more ridiculous than our favorite boys (ex: asking how Beavis would react to something), and anything similar.
+3. **No Spam**: Members are forbidden from posting spam. This includes irrelvant posts, poorly made comments/posts that are more ridiculous than our favorite boys (e.g.: asking how Beavis would react to something), and anything similar.
 
 4. **Creative Sharing**: Members are encouraged to share their fan art, stories, and other creative works. Please make sure that all media is yours and credit others if they were a beta reader, or gave inspiration (even if they aren't on this site).
 
-5. **Feedback**: When providing feedback on others' work, don't be an asshole. If you don't like it, don't say anything. If you DO give criticism or praise it. That is common sense.
+5. **Feedback**: When providing feedback on others' work, don't be an asshole. If you don't like it, don't say anything. If you **do** give criticism or praise it, that is common sense.
 
 6. **Have fun!**: The goal of the Cornholio Zone is to discuss Beavis and Butt-Head. Please, follow the rules above and you'll be fine. Also no NSFW. NSFW works are fine, but no NSFW art. Let your audience know if it contains: smut, rape, extreme violence, or any taboo topics.
 
