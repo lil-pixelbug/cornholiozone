@@ -1,28 +1,30 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const username = 'lil-pixelbug'; // Replace with your GitHub username
-    const repo = 'cornholiozone'; // Replace with your repository name
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Cornholio Zone</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Gallery</h1>
+    <p>Welcome to the gallery! Here you can see the amazing art and fanfiction submitted by fans.</p>
 
-    fetch(`https://api.github.com/repos/${username}/${repo}/issues?labels=art,submission`)
-        .then(response => response.json())
-        .then(issues => {
-            const container = document.getElementById('submissions-container');
-            issues.forEach(issue => {
-                const submissionDiv = document.createElement('div');
-                submissionDiv.className = 'submission';
-                submissionDiv.innerHTML = `
-                    <h2>${issue.title}</h2>
-                    <p>${issue.body}</p>
-                    <p>Uploaded Files:</p>
-                    <ul>
-                        ${issue.comments_url ? `<li><a href="${issue.comments_url}" target="_blank">View Comments</a></li>` : ''}
-                        ${issue.body.includes('http') ? `<li><a href="${issue.body.match(/http[^ ]+/)[0]}" target="_blank">Download File</a></li>` : ''}
-                    </ul>
-                `;
-                container.appendChild(submissionDiv);
-            });
-        })
-        .catch(error => {
-            console.error('Error fetching submissions:', error);
-            document.getElementById('submissions-container').innerHTML = '<p>Error loading submissions. Please try again later.</p>';
-        });
-});
+    <div class="submission">
+        <h2>Testing</h2>
+        <p>This is a description of the submission or any additional notes.</p>
+        <p>Uploaded File: <a href="https://github.com/user-attachments/files/16448168/The.Lost.Days.docx target="_blank">Download the file</a></p>
+    </div>
+
+    <!-- Add more submissions as needed -->
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="submit.html">Submit Art/Fic</a></li>
+            <li><a href="rules.html">Rules</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+
